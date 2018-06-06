@@ -135,3 +135,10 @@ while Chap2 and counter <= max_counter:
         print(CanYouEnglish2 + bcolors.OKGREEN)
         say(CanYouEnglish2)
         Chap2 = True
+
+
+DiamondCT = '''
+     ____</========\>_____
+    // ^ #`^ ^/^\# ^`^ ^ 7\.
+   <|| ^ ^ #`|   \ ^ # ^ ||>
+  //        /|   |        7\.'''

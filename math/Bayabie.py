@@ -55,7 +55,7 @@ print(bcolors.WARNING + text2)
 not_solved = True
 max_counter, counter = 3, 0
 while not_solved and counter <= max_counter:
-    answer = raw_input()
+    answer = input()
     if answer == 'yes':
         print(Welcome + bcolors.OKBLUE)
         say(Welcome)
@@ -81,7 +81,7 @@ say(text4 + text4c)
 max_counter, counter = 3, 0
 while begin and counter <= max_counter:
     counter = counter + 1
-    answer = raw_input()
+    answer = input()
     if answer == '169':
         print(Num169 + bcolors.BOLD)
         print(Relief + bcolors.OKBLUE)
@@ -105,7 +105,7 @@ say(Appreciate)
 
 max_counter, counter = 3, 0
 while Chap2 and counter <= max_counter:
-    answer = raw_input()
+    answer = input()
     if answer == 'yes':
         print(Thanks2 + bcolors.OKBLUE)
         say(Thanks2)
